@@ -78,6 +78,7 @@ button {
 .nav-links > li {
     display: inline-block;
     padding: 0px 15px;
+    line-height: 16px;
 }
 
 .nav-links > li + li {
@@ -113,7 +114,9 @@ button {
 
 .headshot {
     float: left;
+    height: 200px;
     margin-right: 25px;
+    width: 200px;
 }
 
 .img-thumb {
@@ -199,7 +202,9 @@ button {
         float: none;
     }
     .headshot {
+        height: 100%;
         float: none;
+        width: 100%;
     }
     #footer {
         position: static;
